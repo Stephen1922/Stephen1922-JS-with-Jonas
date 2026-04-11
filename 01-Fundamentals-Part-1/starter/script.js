@@ -127,3 +127,23 @@ const isFullAge = age1 >= 18;
 
 console.log(age1, age2);
 console.log(isFullAge);
+
+let a, b;
+a=b=25-10-5;// a=b=10, b =10
+console.log(a,b);
+
+
+/* Write your code below. Good luck! 🙂 */
+
+const massMark=78;
+const heightMark=6;
+const massJohn=60;
+const heightJohn=5;
+const BMIMark = massMark/(heightMark*heightMark);
+const BMIJohn = heightJohn/(heightJohn*heightJohn);
+console.log('BMI Mark: ', BMIMark);
+ console.log('BMI John: ',BMIJohn);
+
+const markHigherBMI = BMIMark < BMIJohn;
+console.log(markHigherBMI)
+
