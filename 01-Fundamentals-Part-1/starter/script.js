@@ -1,4 +1,4 @@
-
+/*Section 2: JavaScript Funcamentals Part1*/
       let js = 'amazing';
       if(js==='amazing') alert('JavaScript is FUN!'); 
       console.log(40+8+23-10);
@@ -145,5 +145,39 @@ console.log('BMI Mark: ', BMIMark);
  console.log('BMI John: ',BMIJohn);
 
 const markHigherBMI = BMIMark < BMIJohn;
-console.log(markHigherBMI)
+console.log(markHigherBMI);
 
+const first_Name= "Stephen";
+const jOb= "QA";
+const birth_Year= 1990;
+const current_year=2026;
+
+const Stephen1= "I'am " + first_Name + ',a ' + (current_year - birth_Year) + ' years old ' + jOb + '!';
+console.log(Stephen1);
+
+const Stephen2= `I'am ${first_Name},a ${current_year-birth_Year} years old ${jOb}!`;
+console.log(Stephen2);
+console.log(`Just a regular string...`);
+console.log(`String with \n\
+      multiple \n\
+      lines`);
+// if else
+const personAge= 15;
+if (personAge>=18){
+      console.log(`Shawn can start driving license 🚗`)
+}
+else{
+      const yearsLeft = 18-personAge;
+      console.log(`Shawn is too young. Wait another ${yearsLeft} years :)`);
+}
+
+//++++++++++++++++++++++++++++++++++++
+const birthYear =2020;
+let century;
+if(birthYear<=2000){
+      century = 20;
+}
+else {century=21;
+}
+
+console.log(century);
