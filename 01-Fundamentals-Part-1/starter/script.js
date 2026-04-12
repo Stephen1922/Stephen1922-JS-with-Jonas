@@ -179,5 +179,73 @@ if(birthYear<=2000){
 }
 else {century=21;
 }
-
 console.log(century);
+
+const massMark1=58;
+const heightMark1=6;
+const massJohn1=78;
+const heightJohn1=6;
+const BMIMark1 = massMark1/(heightMark1*heightMark1);
+const BMIJohn1 = massJohn1/(heightJohn1*heightJohn1);
+if(BMIJohn1<BMIMark1){
+            console.log(`Mark's BMI ${BMIMark1} is higher than John ${BMIJohn1}`);
+}
+else{
+      console.log(`John's BMI ${BMIJohn1} is higher than Mark ${BMIMark1}`);
+}
+
+/*Type convertion and Type coercion*/ 
+
+const inputYear = '1991';
+console.log(inputYear+18);
+console.log(Number(inputYear)
++18);
+
+console.log(Number('Stephen'));
+console.log(typeof NaN);
+
+console.log(String(23),23);
+
+// type coercion
+
+console.log('I am ' + 23 + ' years old');
+console.log('23'+'10'+3)
+console.log('23'-'10'-3)
+console.log('23'*'10'* 3)
+
+let n = '1' + 1;
+n = n-1;
+console.log(n);
+
+// truthy and falsy
+
+// In javascript there are 5 falsy values as mentioned below.
+//falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log('Jones');
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean(NaN));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money=1040;
+if(money){
+      console.log("Don't spend it all ;)");
+}
+else{
+      console.log("You should get a job!");
+}
+
+let height;
+if(height){
+      console.log('YAY Height is defined');
+}
+else {
+      console.log('Height is undefined');
+}
+
+// Equality Operators:
+
