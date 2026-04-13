@@ -253,3 +253,108 @@ const age3 = 17;
 if(age3===18);
       console.log('You just became an adult :D');
 
+// Logical Operators
+
+const hasDriversLicennse = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicennse && hasGoodVision);
+console.log(hasDriversLicennse || hasGoodVision);
+console.log(!hasDriversLicennse);
+
+const shouldDrive = hasDriversLicennse && hasGoodVision;
+
+if(shouldDrive){
+      console.log('Sarah is able to Drive')
+}
+else{
+      console.log('Some one else should Drive')
+}
+
+const isTried = false; // c
+console.log(hasDriversLicennse || isTried);
+console.log(hasDriversLicennse && isTried)
+
+console.log(hasDriversLicennse && hasGoodVision && isTried);
+
+if(hasDriversLicennse && hasGoodVision && !isTried){
+      console.log('Sarah is able to drive!')
+}
+else{
+      console.log('Some one else should drive..')
+}
+
+/* Write your code below. Good luck! 🙂 */
+
+const dolphin_Game1 = 96;
+const dolphin_Game2 = 108;
+const dolphin_Game3 = 89
+
+const koalas_Game1=88;
+const koalas_Game2=91;
+const koalas_Game3=110;
+
+const scoreDolphins = (dolphin_Game1 + dolphin_Game2 + dolphin_Game3)/3;
+console.log(scoreDolphins);
+const scoreKoalas = (koalas_Game1 + koalas_Game2 + koalas_Game3)/3;
+console.log(scoreKoalas);
+
+if(scoreDolphins>scoreKoalas){
+    console.log('Dolphins win the trophy')
+}
+else if(scoreKoalas>scoreDolphins){
+    console.log('Koalas win the trophy')
+}
+else if (scoreDolphins===scoreKoalas) {
+    console.log('Both win the trophy')
+}
+
+// Switch Statement. 
+
+const day = 'monday'; // day === 'monday'
+switch(day){
+      case 'monday':
+            console.log('Plan course structure');
+            console.log('Go to coding meetup');
+            break;
+            case'tuesday': 
+            console.log('Prepare theory videos');
+            break;
+            case 'wednesday':
+            case 'Thursday':
+            console.log('Write code examples');
+            case 'Friday':
+            console.log('Record videos')
+            case 'Saturday':
+            case 'Sunday':
+            console.log('Enjoy the weekend');
+            break;
+            default:
+            console.log('Not a valid day!')
+}
+
+
+if (day==='monday'){
+      console.log('Monday');
+      
+}else if(day ==='tuesday'){
+      console.log('Tuesday');
+}
+else if(day ==='wednesday'){
+      console.log('Wednesday');
+}
+else if(day ==='thursday'){
+      console.log('Thursday');
+}
+else if(day ==='friday'){
+      console.log('friday');
+}
+else if(day ==='saturday' || day==='sunday'){
+      console.log('Saturday or Sunday');
+}
+else{
+      console.log('Not a valid day')
+}
+
+
+
