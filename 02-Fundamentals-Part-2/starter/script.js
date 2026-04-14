@@ -21,3 +21,10 @@ function logger(){
 logger();
 logger();
 logger();
+
+function fruitProcessor(Apples, Oranges){
+        console.log(Apples, Oranges)
+        const juice = `Juice with ${Apples} apple and ${Oranges} oranges.`
+        return juice;
+}
+
