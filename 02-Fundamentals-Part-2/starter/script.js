@@ -6,7 +6,6 @@ const passTest = true;
 if(passTest) hasDriversLicense = true;
 if(hasDriversLicense) console.log('I can drive :D');
 
-
 // const interface = 'Audio';
 // const private = 534;
 
@@ -28,3 +27,9 @@ function fruitProcessor(Apples, Oranges){
         return juice;
 }
 
+const appleJuice=fruitProcessor(3,4);
+console.log(appleJuice)
+console.log(fruitProcessor(5,6));
+
+const orangeJuice=fruitProcessor(10,12);
+console.log(orangeJuice);
