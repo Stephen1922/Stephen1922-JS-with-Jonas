@@ -356,5 +356,33 @@ else{
       console.log('Not a valid day')
 }
 
+// Statement and Expression.
+if(23>10){
+      const str = '23 is bigger';
+}
 
+console.log(`I'm ${2026-1990} years old`)
 
+// The Conditional Ternary Operator. "?  :"
+
+const age4 = 25;
+age4 >= 18 ? console.log('I like to drink wine 🍷'): 
+console.log('I like to drink water 🚰')
+
+const drink1= age>= 18 ? 'wine' : 'water';
+console.log(drink1);
+
+let drink2;
+if(age>=18){
+      drink2 = 'wine';
+}else{
+      drink2='water';
+}
+console.log(drink2)
+
+console.log(`I like to drink ${age>= 18 ? 'wine' : 'water'}`)
+
+const bill=275;
+const tip=bill>=50 && bill<=300 ? bill * 0.15 : bill * 0.2;
+const total=bill+tip;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}`);
